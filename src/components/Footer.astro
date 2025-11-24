@@ -17,9 +17,14 @@ const socialLinks = links.map(({ name, url }) => {
   const isEmail = /^[\w.-]+@[\w.-]+\.[a-z]{2,}$/i.test(url)
 
   if (isRSS) {
+    const localizedPath = getLocalizedPath(url, currentLang)
+    const href = import.meta.env.DEV
+      ? localizedPath
+      : localizedPath.slice(0, -1)
+
     return {
       name,
-      href: getLocalizedPath(url, currentLang).slice(0, -1),
+      href,
       target: '_blank',
       rel: 'noopener noreferrer',
     }
