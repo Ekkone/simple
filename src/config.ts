@@ -4,9 +4,9 @@ export const themeConfig: ThemeConfig = {
   // SITE INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   site: {
     // site title
-    title: '向死而生',
+    title: '向往的生活是当下',
     // site subtitle
-    subtitle: '热爱一切',
+    subtitle: '向死而生，热爱当下每一分每一秒',
     // site description
     description: '',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
