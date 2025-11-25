@@ -169,6 +169,10 @@ export const themeConfig: ThemeConfig = {
         name: 'Email',
         url: 'ekkoone@outlook.com',
       },
+      {
+        name: 'Umami',
+        url: 'https://cloud.umami.is/analytics/us/share/4EuycuiEKuSZ8ndn',
+      }
       // {
       //   name: 'X',
       //   url: 'https://x.com/radishzz_',
